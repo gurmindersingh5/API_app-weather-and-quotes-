@@ -24,7 +24,7 @@ class Home(ScreenManager):
         except:
             pass
         limit = 1
-        key = "d333727602d91309ee5e4eb3eb49496d"
+        key = "d333727602d9130xyz..................."
         try:
             calling_lat_lon = requests.get(
                 f"http://api.openweathermap.org/geo/1.0/direct?q={data[0]},{data[1]}&limit={limit}&appid={key}")
